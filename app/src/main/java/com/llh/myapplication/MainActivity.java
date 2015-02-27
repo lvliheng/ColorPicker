@@ -14,7 +14,6 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class MainActivity extends Activity implements SeekBar.OnSeekBarChangeListener {
 
     private TextView red_tv,
@@ -33,6 +32,7 @@ public class MainActivity extends Activity implements SeekBar.OnSeekBarChangeLis
     }
 
     private void initView() {
+        ////////////////
         red_tv = (TextView) findViewById(R.id.red_tv);
         SeekBar red_seekbar = (SeekBar) findViewById(R.id.red_seekbar);
         green_tv = (TextView) findViewById(R.id.green_tv);
