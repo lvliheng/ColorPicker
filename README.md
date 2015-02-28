@@ -61,11 +61,14 @@ private String tenToSixteen(EditText et) {
 	private String numToLetter(int num) {
 		return String.valueOf((char) ('a' + (num - 10)));
 	}
-	
+```
+
 	后来看了别人的代码，才发现：
 	
+```java
 	String resultStr = String.format("#%02x%02x%02x", mList.get(0).getProgress(), mList.get(1).getProgress(),          mList.get(2).getProgress());
-	
+```
+
 	原来还可以这样！！！
 	
 	然后顺便扒一下人家的图...
