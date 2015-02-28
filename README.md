@@ -76,5 +76,7 @@ private String tenToSixteen(EditText et) {
 	多谢：
 	
 	[https://github.com/4k3R/material-color-picker](https://github.com/4k3R/material-color-picker)
+	
+	[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 	   
         
