@@ -75,8 +75,12 @@ private String tenToSixteen(EditText et) {
 	
 	多谢：
 	
-	[https://github.com/4k3R/material-color-picker](https://github.com/4k3R/material-color-picker)
+	https://github.com/4k3R/material-color-picker
 	
-	[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
+	比如`:blush:`，可以显示:blush:。
+
+	具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-s	heet.com)。
+
+	但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 	   
         
