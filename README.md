@@ -65,7 +65,7 @@ private String tenToSixteen(EditText et) {
 后来看了别人的代码，才发现：
 	
 ```java
-	String resultStr = String.format("#%02x%02x%02x", mList.get(0).getProgress(), mList.get(1).getProgress(),          mList.get(2).getProgress());
+	String resultStr = String.format("#%02x%02x%02x", mList.get(0).getProgress(), mList.get(1).getProgress(), mList.get(2).getProgress());
 ```
 
 原来还可以这样！！！
