@@ -72,6 +72,8 @@ private String tenToSixteen(EditText et) {
 原来还可以这样！！！
 	
 然后顺便扒一下人家的图...
+
+![2015-02-27 5 38 00](https://cloud.githubusercontent.com/assets/8185812/6425561/95585b84-bf69-11e4-92b6-6e3f0469ab10.png)
 	
 多谢：
 	
