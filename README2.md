@@ -1,5 +1,0 @@
-AAAAAAAA
-===
-BBBBBB
--------
-CCCC
