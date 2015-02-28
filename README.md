@@ -5,6 +5,7 @@
 
 之前写的10进制转换16进制：
 
+```java
 private String tenToSixteen(EditText et) {
 		if ("".equals(et.getText().toString().trim())) {
 			et.startAnimation(mAnimation);
@@ -71,4 +72,4 @@ private String tenToSixteen(EditText et) {
 	
 	多谢：https://github.com/4k3R/material-color-picker
 	   
-   
+        
