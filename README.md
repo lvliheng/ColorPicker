@@ -1,4 +1,3 @@
-# GetColorByRGB
 
 通过RGB获取色值
 ===
