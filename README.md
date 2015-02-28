@@ -77,7 +77,7 @@ private String tenToSixteen(EditText et) {
 	
 https://github.com/4k3R/material-color-picker
 	
-:blush:。
+:blush:
 
 
 	   
