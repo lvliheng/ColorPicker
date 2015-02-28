@@ -73,6 +73,8 @@ private String tenToSixteen(EditText et) {
 	
 	然后顺便扒一下人家的图...
 	
-	多谢：https://github.com/4k3R/material-color-picker
+	多谢：
+	
+	https://github.com/4k3R/material-color-picker
 	   
         
