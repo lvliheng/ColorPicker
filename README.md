@@ -63,24 +63,22 @@ private String tenToSixteen(EditText et) {
 	}
 ```
 
-	后来看了别人的代码，才发现：
+后来看了别人的代码，才发现：
 	
 ```java
 	String resultStr = String.format("#%02x%02x%02x", mList.get(0).getProgress(), mList.get(1).getProgress(),          mList.get(2).getProgress());
 ```
 
-	原来还可以这样！！！
+原来还可以这样！！！
 	
-	然后顺便扒一下人家的图...
+然后顺便扒一下人家的图...
 	
-	多谢：
+多谢：
 	
-	https://github.com/4k3R/material-color-picker
+https://github.com/4k3R/material-color-picker
 	
-	比如`:blush:`，可以显示:blush:。
+:blush:。
 
-	具体每一个表情的符号码，可以查询GitHub的官方网页[http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-s	heet.com)。
 
-	但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 	   
         
