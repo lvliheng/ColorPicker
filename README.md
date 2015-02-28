@@ -6,40 +6,40 @@
 之前写的10进制转换16进制：
 
 private String tenToSixteen(EditText et) {
-		if("".equals(et.getText().toString().trim())){
+		if ("".equals(et.getText().toString().trim())) {
 			et.startAnimation(mAnimation);
 			return "error";
 		}
-		int value=Integer.parseInt(et.getText().toString().trim());
+		int value = Integer.parseInt(et.getText().toString().trim());
 		String result = "";
-		if(value<0||value>255){
+		if (value < 0 || value > 255) {
 			et.startAnimation(mAnimation);
 			return "error";
-		}else{
-			if(value==0){
+		} else {
+			if (value == 0) {
 				return "00";
-			}else{
+			} else {
 				int first = value / 16;
 				int last = 0;
 				if (first == 0) {// value<16
 					if (value > 0 && value < 10) {
-						result = "0"+value;
+						result = "0" + value;
 					} else if (value > 9) {
-						result = "0"+numToLetter(value);
+						result = "0" + numToLetter(value);
 					}
 				} else {// value>=16
 					last = value - first * 16;
-					if(last==0){// value=16n
+					if (last == 0) {// value=16n
 						if (first > 0 && first < 10) {
-							result = first+"0";
+							result = first + "0";
 						} else if (first > 9) {
-							result = numToLetter(first)+"0";
+							result = numToLetter(first) + "0";
 						}
 						return result;
-					}else{
+					} else {
 						if (first > 0 && first < 10) {
 							if (last > 0 && last < 10) {
-								result = first +""+ last;
+								result = first + "" + last;
 							} else if (last > 9) {
 								result = first + numToLetter(last);
 							}
@@ -51,7 +51,7 @@ private String tenToSixteen(EditText et) {
 							}
 						}
 					}
-				}	
+				}
 			}
 		}
 		return result;
@@ -70,4 +70,5 @@ private String tenToSixteen(EditText et) {
 	然后顺便扒一下人家的图...
 	
 	多谢：https://github.com/4k3R/material-color-picker
-	
+	   
+   
